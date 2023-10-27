@@ -1,0 +1,33 @@
+.main{
+     height: 100vh;
+    background-image:url(https://wallpaperaccess.com/full/1586344.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+     background-color: transparent;
+     overflow: hidden;
+     box-shadow: 3px 3px 10px 1px rgba(90, 90, 90, 0.244);
+}
+.card-body{ 
+     background-color: rgba(0, 0, 0, 0.19);
+     position: absolute;
+     bottom: 0px;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s;
+    color: aliceblue;
+    width: 100%;
+}
+.card:hover .card-body{
+     background-color: rgba(0, 0, 0, 0.577);
+    height: 200px;   
+}
+p{
+     visibility: hidden;
+     opacity: 0;
+}
+.card:hover p{
+     visibility: visible;
+     opacity: 1;
+}
